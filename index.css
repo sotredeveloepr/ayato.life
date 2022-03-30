@@ -1,0 +1,110 @@
+html
+{
+  /*tab-size: 4;*/
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+.body
+{
+  /*text-align: justify;*/
+  background-color: #1a202c;
+  color: #ffffff;
+  /*text-align: center;
+  line-height: inherit;
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;*/
+  display: flex;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  margin-left: 0;
+  margin-right: 0;
+  /*width: 100%;*/
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.div
+{
+  width: 50%;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  /*max-width: 1024px;*/
+  /*margin: auto;*/
+  box-sizing: border-box;
+}
+
+.span
+{
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.h1
+{
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bubble-tea
+{
+  padding-bottom: .25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  /*max-width: 100%;
+  display: block;*/
+  box-sizing: border-box;
+}
+
+.blockquote
+{
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #61adff;
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+}
+
+.blockquote > p
+{
+  margin: 0;
+}
+
+.main-img
+{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  display: block;
+}
+
+.footer
+{
+  text-align: center;
+  margin-top: 1.25rem;
+  box-sizing: border-box;
+}
+
+.footer > p
+{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a
+{
+  text-decoration: none;
+  /*color: #ffffff;*/
+  color: inherit;
+}
