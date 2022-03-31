@@ -11,29 +11,37 @@ html
   /*text-align: justify;*/
   background-color: #1a202c;
   color: #ffffff;
-  /*text-align: center;
-  line-height: inherit;
+  /*text-align: center;*/
+  /*line-height: inherit;*/
   box-sizing: border-box;
-  border-width: 0;
+  /*border-width: 0;
   border-style: solid;*/
   display: flex;
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
   margin-left: 0;
   margin-right: 0;
+  /*margin: 0;*/
   /*width: 100%;*/
   justify-content: center;
-  box-sizing: border-box;
 }
 
 .div
 {
-  width: 50%;
+  width: 85%;
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
   /*max-width: 1024px;*/
   /*margin: auto;*/
   box-sizing: border-box;
+}
+
+@media (min-width: 1024px)
+{
+  .div
+  {
+    width: 50%;
+  }
 }
 
 .span
